@@ -12,6 +12,6 @@
         }
     },
     "remoteUser": "vscode",
-    "postCreateCommand": "sudo service mariadb start && sudo mariadb -e \"CREATE DATABASE IF NOT EXISTS dev_db;\"",
+    "postCreateCommand": "sudo service mariadb start && sudo mariadb -e \"CREATE DATABASE IF NOT EXISTS relacional_db;\"",
     "postStartCommand": "sudo service mariadb start"
 }
